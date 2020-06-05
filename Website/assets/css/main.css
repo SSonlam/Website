@@ -25,6 +25,8 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
+
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -71,6 +73,7 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+
 
 /* Basic */
 
@@ -202,7 +205,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		letter-spacing: 0.35em;
 	}
-
+ 
 		h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 		}
@@ -291,9 +294,9 @@ input, select, textarea {
 		}
 
 	hr {
-		border: 0;
+		border: 1000;
 		border-bottom: solid 1px #c9c9c9;
-		margin: 2em 0;
+		margin-top: -45px;
 	}
 
 		hr.major {
@@ -397,9 +400,6 @@ input, select, textarea {
 			margin-left: 41.66667%;
 		}
 
-		.row > .col-6 {
-			width: 50%;
-		}
 
 		.row > .off-6 {
 			margin-left: 50%;
@@ -2310,6 +2310,7 @@ input, select, textarea {
 
 /* Image */
 
+
 	.image {
 		border-radius: 4px;
 		border: 0;
@@ -3167,9 +3168,13 @@ input, select, textarea {
 	#footer {
 		padding: 5em 0 6em 0 ;
 		background-color: #f6f6f6;
+		margin-bottom: 0px;
+		height: 100%;
+		width: 100%;
 	}
 
 		#footer > .inner {
+			margin-left: 30px;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3327,3 +3332,32 @@ input, select, textarea {
 			}
 
 		}
+
+.where{
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+.git{
+	margin-bottom: 0px;
+	margin-top: 30px;
+	font-size: 20px;
+}
+.whatthe{
+	font-size: 20px;
+}
+.medimg{
+	height: 300px;
+	width: 300px;
+	float: right;
+	clear: right;
+	margin-left: 10px;
+	border: solid black 1px;
+}
+.gitimg{
+	height: 300px;
+	width: 450px;
+	float: right;
+	clear: right;
+	margin-left: 10px;
+	border: solid black 1px;
+}

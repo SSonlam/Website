@@ -50,33 +50,50 @@
 					<div id="main">
 						<div class="inner">
 							<h1>Importance of Data Provenance in the Software Field</h1>
+							<hr>
 							<!-- Lists -->
 								<section>
-									<h2><u>Why is it Needed? (more detail is shown in part 3, Question “Why is provenance needed?”)</u>> </h2>
+									<h2 class = "where"><u>Who needs to use provenance? </u> </h2>
 									<div class="row">
 										<div class="col-6 col-12-medium">
 											<ul>
-												<li>Important for developers and stakeholders who want to know more about features and their change history</li>
-												<li>Determines the reliability and quality of the data being used</li>
-												<li>When developers are using existing code for their projects they would want to know the following</li>
+												<li>People related to the project or the product. For example, they could be developers, testing teams, managers, software design architecture, and even stakeholders. [1]</li>
 											</ul>
-											<h3>When is it used?</h3>
+											<h3 class ="whatthe"><u>Why is provenance needed?</u></h3>
 											<ul>
-												<li>Data provenance is used during the development of a project</li>
-												<li>Testing process</li>
-												<li>After the project is complete stakeholders might want to search for previous projects, similar to the new one, to compare and analyze its quality</li>
-												<li>All data should be stored for future team developers to understand the project</li>
+												<li>To understand the project thoroughly, developers and stakeholders would want to know about its features and the change history for comparison. </li>
+												<li>In order to build a quality product, developers need to know where their data came from to determine its reliability and quality. For example, when developers maintain or evolve an existing code, they would want to know when the code was built, any existing bugs, what generation the code is, which features and requirements are needed, and so on. [1] Developers might also want to know the extent to which the code was tested. Was the code tested every time it was modified? The number of unit tests give a hint on where the quality of the code is. If the code were to suddenly fail, current developers might want to contact the responsible developer because they would have the most knowledge to fix the problem (They might have fixed the problem already in a previous test).</li>
 											</ul>
-
-
-									
-							
+											<h4 class ="whatthe"><u>When/where is provenance needed?</u></h3>
+											<ul>
+												<li>Provenance is used to determine whether code/data is trustworthy by looking at the believability of the source, reasonableness of data, and temporality of data.</li>
+												<li>In order to build a quality product, developers need to know where their data came from to determine its reliability and quality. For example, when developers maintain or evolve an existing code, they would want to know when the code was built, any existing bugs, what generation the code is, which features and requirements are needed, and so on. [1] Developers might also want to know the extent to which the code was tested. Was the code tested every time it was modified? The number of unit tests give a hint on where the quality of the code is. If the code were to suddenly fail, current developers might want to contact the responsible developer because they would have the most knowledge to fix the problem (They might have fixed the problem already in a previous test).</li>
+												<ul>
+													<li>Believability of source: the extent to which a data value from a trustworthy source</li>
+													<li>Reasonableness of data: The extent to which a data value is likely</li>
+													<li>Temporality of data: the extent to which data value is credible based on transaction and valid times</li>
+												</ul>
+											</ul>
+											<h5 class ="whatthe"><u>Some cases where provenance is needed to search and store data.</u></h5>
+											<ul>
+												<li>In the writing requirements process, besides the defined requirements from stakeholders, developers can search for similar previous projects (bugs and risks) to improve the requirement sets. </li>
+												<li>While developing the project, developers usually search for available code instead of writing the whole project from scratch. The code could be in the library, open sources, or product from third parties. The provenance of that code is important to determine how reliable and well tested that code is. </li>
+												<li>When the project is passed to the testing teams, they need to know where the data, resources, and code came from to build the appropriate test cases.</li>
+												<li>When the project is complete and sent to stakeholders, they might want to search for previous related projects to compare and analyse its quality.</li>
+												<li>All data about the project should be stored in the system in case developers want to maintain or evolve the project. Sometimes the maintaining developer team is not the developing team, so this data is very important for new team developers to understand the project.</li>
+												<li>Data provenance is also needed when input data is being used by a software. Data provenance is used to determine the origin and transmission history of the data. Organizations may use blockchain technology for authenticating data. A distributed ledger provides a verified chain of transaction records which makes data within the chain easy to trace. Data within the chain can not be modified without approval.</li>
+											</ul>
+											<h5>References</h5>
+											<p>[1] Godfrey, Michael. “Understanding software artifact provenance.” Science of Computer Programming, vol. 97, part 1, 1 January 2015, pp. 86-90 https://www.sciencedirect.com/science/article/pii/S0167642313003055#se0020. Accessed on April 30, 2020.</p>
+											<p>[2] “Data Provenance.” Data Provenance - an Overview | ScienceDirect Topics, www.sciencedirect.com/topics/computer-science/data-provenance.</p>
+											<p>[3] Alkhalil, Adel, and Rabie Ramadan. “IoT Data Provenance Implementation Challenges.”    ScienceDirect, 2017, pdf.sciencedirectassets.com/280203/1-s2.0-S1877050917X00082/1-s2.0-S1877050917311183/main.pdf</p>
 						</div>
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
+							<p><p><pre>Design: <a href="https://html5up.net/">HTML5UP</a>   Created By: Team S.A.D.A.</pre></p></p>
 						</div>
 					</footer>
 
